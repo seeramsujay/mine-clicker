@@ -40,4 +40,4 @@ data/
 *.swp
 *.swo
 
-docs/
+docs/.pytest_cache/
