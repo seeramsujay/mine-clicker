@@ -1,4 +1,22 @@
+<div align="center">
+
+<img src="assets/logo.svg" alt="Minecraft Automation Engine Logo" width="160" />
+
 # Minecraft Automation Engine
+### Ultra-Low-Overhead (<15MB RAM) Out-of-Process Automation with Packet Sniffing & Hardware HID
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Footprint: <15MB RAM](https://img.shields.io/badge/Footprint-%3C15MB%20RAM-success.svg)](#)
+[![Input: Hardware HID / uinput](https://img.shields.io/badge/Input-RP2040%20HID%20%7C%20uinput-informational.svg)](#)
+[![Proxy: Quarry Twisted](https://img.shields.io/badge/Sniffer-Quarry%20Packet%20Tap-orange.svg)](#)
+
+<p align="center">
+  <b>An external, ultra-low-overhead Minecraft automation engine that intercepts network packets via a local sniffer proxy, prioritizes macros with durability safeguards, and injects inputs via hardware USB-HID emulation.</b>
+</p>
+
+</div>
+
+---
 
 An ultra-low-overhead, out-of-process automation engine for Minecraft. This tool runs externally to the game client, intercepting network packet communication via a local sniffer proxy, scheduling macros with a priority-gated scheduler, and executing inputs via hardware USB-HID emulation (or Linux `uinput` kernel fallbacks).
 
